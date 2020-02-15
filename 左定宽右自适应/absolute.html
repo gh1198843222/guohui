@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>absolute</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.left {
+			background: pink;
+			float: left;
+			width: 100px;
+			position: relative;
+		}
+		.right-wrap {
+			background: lightblue;
+			float: right;
+			width: 100%;
+			margin-left: -100px;
+		}
+		
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="left"><h2>左定宽</h2></div>
+		<div class="right-wrap"><h2>右自适应</h2></div>
+	</div>
+</body>
+</html>

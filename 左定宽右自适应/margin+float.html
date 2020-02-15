@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>margin-float</title>
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+		}
+		.left {
+			background: pink;
+			position: absolute;
+			left: 0;
+			width: 100px;
+		}
+		.right{
+			position: absolute;;
+			left: 120px;
+			right: 0;
+			background: yellow;
+
+
+		}
+		.container {
+			position: relative;
+		}
+
+
+		
+
+	</style>
+</head>
+<body>
+	<div class="container">
+		<div class="left"><h2>左定宽</h2></div>
+		<div class="right-wrap"><div class="right"><h2>右自适应</h2></div></div>
+	</div>
+</body>
+</html>
